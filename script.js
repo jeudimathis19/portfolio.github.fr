@@ -3,77 +3,71 @@
 // ══════════════════════════════════════════
 const translations = {
   fr: {
-    "nav.skills":   "Compétences",
-    "nav.projects": "Projets",
-    "nav.annexes":  "Annexes",
-    "hero.tag":     "Portfolio",
-    "hero.sub":     "Développeur passionné. Je conçois des applications web modernes et performantes, de la conception à la mise en production.",
-    "hero.cta":     "Voir mes projets",
-    "hero.contact": "Contact",
-    "contact.title":   "Me contacter",
-    "contact.desc":    "Envoie-moi un message directement via Gmail.",
-    "contact.gmail":   "Ouvrir Gmail",
-    "contact.linkedin":"Message LinkedIn",
-    "skills.title":  "Compétences",
-    "level.advanced":    "Avancé",
-    "level.intermediate":"Intermédiaire",
-    "level.beginner":    "Débutant",
-    "skills.js.1":  "Développement d'applications React SPA avec hooks et context API",
-    "skills.js.2":  "Automatisation de tâches avec Node.js et scripts CLI",
-    "skills.js.3":  "Intégration d'APIs REST et WebSocket en temps réel",
+    "nav.skills":    "Comp\u00e9tences",
+    "nav.projects":  "Projets",
+    "nav.annexes":   "Annexes",
+    "hero.tag":      "Portfolio",
+    "hero.sub":      "D\u00e9veloppeur cr\u00e9atif et passionn\u00e9. Je con\u00e7ois des applications web et locales, aussi bien modernes que performantes, de la conception \u00e0 la mise en production.",
+    "hero.cta":      "Voir mes projets",
+    "hero.contact":  "Contact",
+    "contact.title": "Me contacter",
+    "contact.desc":  "Envoie-moi un message directement via Gmail.",
+    "contact.gmail": "Ouvrir Gmail",
+    "contact.linkedin": "Message LinkedIn",
+    "skills.title":  "Comp\u00e9tences",
+    "level.advanced":     "Avanc\u00e9",
+    "level.intermediate": "Interm\u00e9diaire",
+    "level.beginner":     "D\u00e9butant",
+    "skills.js.1":  "D\u00e9veloppement d'applications React SPA avec hooks et context API",
+    "skills.js.2":  "Automatisation de t\u00e2ches avec Node.js et scripts CLI",
+    "skills.js.3":  "Int\u00e9gration d'APIs REST et WebSocket en temps r\u00e9el",
     "skills.js.4":  "Tests unitaires avec Jest et Testing Library",
     "skills.php.1": "Conception d'APIs RESTful avec Symfony et API Platform",
     "skills.php.2": "Gestion de l'authentification avec JWT et OAuth2",
-    "skills.php.3": "Création de CRUD avec Doctrine ORM et migrations",
+    "skills.php.3": "Cr\u00e9ation de CRUD avec Doctrine ORM et migrations",
     "skills.php.4": "Tests fonctionnels avec PHPUnit et Behat",
-    "skills.py.1":  "Scripts d'automatisation et traitement de données CSV/JSON",
+    "skills.py.1":  "Scripts d'automatisation et traitement de donn\u00e9es CSV/JSON",
     "skills.py.2":  "API backend avec FastAPI et Flask",
     "skills.py.3":  "Web scraping avec BeautifulSoup et Playwright",
-    "skills.py.4":  "Analyse de données avec Pandas et Matplotlib",
-    "skills.sql.1": "Modélisation de bases de données relationnelles (MySQL, PostgreSQL)",
-    "skills.sql.2": "Requêtes complexes avec jointures, sous-requêtes, agrégations",
+    "skills.py.4":  "Analyse de donn\u00e9es avec Pandas et Matplotlib",
+    "skills.sql.1": "Mod\u00e9lisation de bases de donn\u00e9es relationnelles (MySQL, PostgreSQL)",
+    "skills.sql.2": "Requ\u00eates complexes avec jointures, sous-requ\u00eates, agr\u00e9gations",
     "skills.sql.3": "Optimisation des performances avec index et query plans",
-    "skills.sql.4": "Introduction à MongoDB et bases NoSQL",
+    "skills.sql.4": "Introduction \u00e0 MongoDB et bases NoSQL",
     "skills.docker.1": "Containerisation d'applications avec Docker et docker-compose",
     "skills.docker.2": "Configuration de pipelines CI/CD avec GitHub Actions",
-    "skills.docker.3": "Déploiement sur VPS avec Nginx et PM2",
-    "skills.css.1": "Intégration pixel-perfect de maquettes Figma/Adobe XD",
+    "skills.docker.3": "D\u00e9ploiement sur VPS avec Nginx et PM2",
+    "skills.css.1": "Int\u00e9gration pixel-perfect de maquettes Figma/Adobe XD",
     "skills.css.2": "Layouts complexes avec CSS Grid et Flexbox",
     "skills.css.3": "Animations CSS et micro-interactions",
-    "skills.css.4": "Accessibilité WCAG 2.1 et SEO technique",
-    "projects.title": "Projets",
-    "projects.alpha.desc": "Application web full-stack de gestion de tâches collaboratives avec notifications temps réel et tableau Kanban drag-and-drop.",
-    "projects.beta.desc":  "API REST sécurisée pour une plateforme e-commerce : gestion des produits, panier, commandes et paiement Stripe.",
-    "projects.gamma.desc": "Dashboard d'analyse de données avec visualisations interactives, filtres dynamiques et export PDF/CSV.",
+    "skills.css.4": "Accessibilit\u00e9 WCAG 2.1 et SEO technique",
+    "projects.title":      "Projets",
+    "projects.alpha.desc": "Application web full-stack de gestion de t\u00e2ches collaboratives avec notifications temps r\u00e9el et tableau Kanban drag-and-drop.",
+    "projects.beta.desc":  "API REST s\u00e9curis\u00e9e pour une plateforme e-commerce : gestion des produits, panier, commandes et paiement Stripe.",
+    "projects.gamma.desc": "Dashboard d'analyse de donn\u00e9es avec visualisations interactives, filtres dynamiques et export PDF/CSV.",
     "projects.delta.desc": "Application mobile-first de suivi d'habitudes avec gamification, statistiques hebdomadaires et rappels push.",
-    "annexes.title":          "Annexes",
-    "annexes.cv.title":       "Curriculum Vitæ",
-    "annexes.cv.desc":        "Mon CV complet au format PDF — Dernière mise à jour : 2025",
-    "annexes.stage.title":    "Rapport de stage",
-    "annexes.stage.desc":     "Rapport de stage de fin d'études — Entreprise XYZ, 2024",
-    "annexes.cert.title":     "Certifications",
-    "annexes.cert.desc":      "AWS Cloud Practitioner, Google Analytics, freeCodeCamp",
-    "annexes.memoire.title":  "Mémoire de fin d'études",
-    "annexes.memoire.desc":   "Étude sur l'accessibilité des interfaces web — 2024",
-    "footer.phone":  "Téléphone",
-    "footer.rights": "Tous droits réservés",
+    "annexes.title":   "Annexes",
+    "annexes.cv.title": "Curriculum Vitae",
+    "annexes.cv.desc":  "Mon CV complet au format PDF \u2014 Derni\u00e8re mise \u00e0 jour : 2026",
+    "footer.phone":  "T\u00e9l\u00e9phone",
+    "footer.rights": "Tous droits r\u00e9serv\u00e9s",
   },
   en: {
-    "nav.skills":   "Skills",
-    "nav.projects": "Projects",
-    "nav.annexes":  "Annexes",
-    "hero.tag":     "Portfolio",
-    "hero.sub":     "Passionate developer. I build modern, high-performance web applications from design to deployment.",
-    "hero.cta":     "See my projects",
-    "hero.contact": "Contact",
-    "contact.title":   "Contact me",
-    "contact.desc":    "Send me a message directly via Gmail.",
-    "contact.gmail":   "Open Gmail",
-    "contact.linkedin":"LinkedIn Message",
+    "nav.skills":    "Skills",
+    "nav.projects":  "Projects",
+    "nav.annexes":   "Annexes",
+    "hero.tag":      "Portfolio",
+    "hero.sub":      "Creative and passionate developer. I build web and desktop applications, both modern and high-performance, from design to deployment.",
+    "hero.cta":      "See my projects",
+    "hero.contact":  "Contact",
+    "contact.title": "Contact me",
+    "contact.desc":  "Send me a message directly via Gmail.",
+    "contact.gmail": "Open Gmail",
+    "contact.linkedin": "LinkedIn Message",
     "skills.title":  "Skills",
-    "level.advanced":    "Advanced",
-    "level.intermediate":"Intermediate",
-    "level.beginner":    "Beginner",
+    "level.advanced":     "Advanced",
+    "level.intermediate": "Intermediate",
+    "level.beginner":     "Beginner",
     "skills.js.1":  "React SPA development with hooks and context API",
     "skills.js.2":  "Task automation with Node.js and CLI scripts",
     "skills.js.3":  "REST API and real-time WebSocket integration",
@@ -97,38 +91,32 @@ const translations = {
     "skills.css.2": "Complex layouts with CSS Grid and Flexbox",
     "skills.css.3": "CSS animations and micro-interactions",
     "skills.css.4": "WCAG 2.1 accessibility and technical SEO",
-    "projects.title": "Projects",
+    "projects.title":      "Projects",
     "projects.alpha.desc": "Full-stack web application for collaborative task management with real-time notifications and drag-and-drop Kanban board.",
     "projects.beta.desc":  "Secured REST API for an e-commerce platform: product management, cart, orders and Stripe payments.",
     "projects.gamma.desc": "Data analytics dashboard with interactive charts, dynamic filters and PDF/CSV export.",
     "projects.delta.desc": "Mobile-first habit tracking app with gamification, weekly stats and push notifications.",
-    "annexes.title":          "Annexes",
-    "annexes.cv.title":       "Curriculum Vitæ",
-    "annexes.cv.desc":        "My full CV in PDF format — Last updated: 2025",
-    "annexes.stage.title":    "Internship Report",
-    "annexes.stage.desc":     "End-of-studies internship report — Company XYZ, 2024",
-    "annexes.cert.title":     "Certifications",
-    "annexes.cert.desc":      "AWS Cloud Practitioner, Google Analytics, freeCodeCamp",
-    "annexes.memoire.title":  "Thesis",
-    "annexes.memoire.desc":   "Study on web interface accessibility — 2024",
+    "annexes.title":    "Annexes",
+    "annexes.cv.title": "Curriculum Vitae",
+    "annexes.cv.desc":  "My full CV in PDF format \u2014 Last updated: 2026",
     "footer.phone":  "Phone",
     "footer.rights": "All rights reserved",
   }
 };
 
 // ══════════════════════════════════════════
-//  ÉTAT
+//  ETAT
 // ══════════════════════════════════════════
 let currentLang  = localStorage.getItem('lang')  || 'fr';
 let currentTheme = localStorage.getItem('theme') || 'dark';
 
 // ══════════════════════════════════════════
-//  THÈME
+//  THEME
 // ══════════════════════════════════════════
-const themeBtn  = document.getElementById('themeBtn');
-const iconMoon  = document.getElementById('iconMoon');
-const iconSun   = document.getElementById('iconSun');
-const htmlEl    = document.documentElement;
+const themeBtn = document.getElementById('themeBtn');
+const iconMoon = document.getElementById('iconMoon');
+const iconSun  = document.getElementById('iconSun');
+const htmlEl   = document.documentElement;
 
 function applyTheme(theme) {
   htmlEl.setAttribute('data-theme', theme);
@@ -162,6 +150,15 @@ function applyLang(lang) {
     const key = el.getAttribute('data-i18n');
     if (t[key] !== undefined) el.textContent = t[key];
   });
+
+  // CV selon la langue
+  const cvLink = document.getElementById('cvLink');
+  if (cvLink) {
+    cvLink.href = lang === 'fr'
+      ? 'media/CV_Francais.pdf'
+      : 'media/English_CV.pdf';
+  }
+
   localStorage.setItem('lang', lang);
 }
 
@@ -204,7 +201,7 @@ document.querySelectorAll('.menu-close').forEach(link => {
 });
 
 // ══════════════════════════════════════════
-//  ACCORDÉON COMPÉTENCES
+//  ACCORDEON COMPETENCES
 // ══════════════════════════════════════════
 document.querySelectorAll('[data-skill]').forEach(card => {
   card.querySelector('.skill-header').addEventListener('click', () => {
@@ -223,12 +220,12 @@ const observer = new IntersectionObserver(entries => {
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
 // ══════════════════════════════════════════
-//  ANNÉE FOOTER
+//  ANNEE FOOTER
 // ══════════════════════════════════════════
 document.getElementById('year').textContent = new Date().getFullYear();
 
 // ══════════════════════════════════════════
-//  INIT (appliquer les préférences sauvegardées)
+//  INIT
 // ══════════════════════════════════════════
 applyTheme(currentTheme);
 applyLang(currentLang);
