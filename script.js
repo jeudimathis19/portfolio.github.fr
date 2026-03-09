@@ -1,6 +1,3 @@
-// ══════════════════════════════════════════
-//  TRADUCTIONS
-// ══════════════════════════════════════════
 const translations = {
   fr: {
     "nav.skills":    "Comp\u00e9tences",
@@ -106,15 +103,9 @@ const translations = {
   }
 };
 
-// ══════════════════════════════════════════
-//  ETAT
-// ══════════════════════════════════════════
 let currentLang  = localStorage.getItem('lang')  || 'fr';
 let currentTheme = localStorage.getItem('theme') || 'dark';
 
-// ══════════════════════════════════════════
-//  THEME
-// ══════════════════════════════════════════
 const themeBtn = document.getElementById('themeBtn');
 const iconMoon = document.getElementById('iconMoon');
 const iconSun  = document.getElementById('iconSun');
@@ -137,9 +128,6 @@ themeBtn.addEventListener('click', () => {
   applyTheme(currentTheme);
 });
 
-// ══════════════════════════════════════════
-//  LANGUE
-// ══════════════════════════════════════════
 const langBtn   = document.getElementById('langBtn');
 const langLabel = document.getElementById('langLabel');
 
@@ -169,9 +157,6 @@ langBtn.addEventListener('click', () => {
   applyLang(currentLang);
 });
 
-// ══════════════════════════════════════════
-//  MODAL CONTACT
-// ══════════════════════════════════════════
 const contactBtn   = document.getElementById('contactBtn');
 const contactModal = document.getElementById('contactModal');
 const modalClose   = document.getElementById('modalClose');
@@ -185,9 +170,6 @@ document.addEventListener('keydown', e => {
   if (e.key === 'Escape') contactModal.classList.remove('open');
 });
 
-// ══════════════════════════════════════════
-//  BURGER MENU
-// ══════════════════════════════════════════
 const burger     = document.getElementById('burgerBtn');
 const mobileMenu = document.getElementById('mobileMenu');
 
@@ -202,9 +184,6 @@ document.querySelectorAll('.menu-close').forEach(link => {
   });
 });
 
-// ══════════════════════════════════════════
-//  ACCORDEON COMPETENCES
-// ══════════════════════════════════════════
 document.querySelectorAll('[data-skill]').forEach(card => {
   card.querySelector('.skill-header').addEventListener('click', () => {
     const isOpen = card.classList.contains('open');
@@ -213,21 +192,12 @@ document.querySelectorAll('[data-skill]').forEach(card => {
   });
 });
 
-// ══════════════════════════════════════════
-//  SCROLL REVEAL
-// ══════════════════════════════════════════
 const observer = new IntersectionObserver(entries => {
   entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
 }, { threshold: 0.1 });
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-// ══════════════════════════════════════════
-//  ANNEE FOOTER
-// ══════════════════════════════════════════
 document.getElementById('year').textContent = new Date().getFullYear();
 
-// ══════════════════════════════════════════
-//  INIT
-// ══════════════════════════════════════════
 applyTheme(currentTheme);
 applyLang(currentLang);
