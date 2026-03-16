@@ -207,5 +207,19 @@ document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
+// Back to top button
+const backToTopBtn = document.querySelector('.back-to-top');
+
+function handleBackToTopScroll() {
+  if (window.scrollY > 300) {
+    backToTopBtn.classList.add('visible');
+  } else {
+    backToTopBtn.classList.remove('visible');
+  }
+}
+
+window.addEventListener('scroll', handleBackToTopScroll);
+handleBackToTopScroll(); // Check on load
+
 applyTheme(currentTheme);
 applyLang(currentLang);
