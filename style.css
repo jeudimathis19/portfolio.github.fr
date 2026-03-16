@@ -508,7 +508,20 @@ section { margin-bottom: 5rem; }
   gap: 1rem;
   transition: border-color 0.2s, transform 0.2s, background 0.3s;
 }
-.project-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+.project-card-link {
+  text-decoration: none;
+  display: block;
+}
+.project-card-link .project-name {
+  color: var(--text);
+}
+.project-card-link .project-desc,
+.project-card-link .project-tags,
+.project-card-link .project-tags .tag {
+  color: var(--muted);
+}
+.project-card-link .project-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+.project-card-link .project-github { pointer-events: none; }
 .project-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; }
 .project-name { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1rem; }
 .project-github {

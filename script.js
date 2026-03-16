@@ -50,7 +50,7 @@ const translations = {
     "projects.resto.desc":        "Syst\u00e8me de gestion de restaurants avec personnalisation de menu, gestion de stocks et d'\u00e9quipements.",
     "annexes.title":   "Annexes",
     "annexes.cv.title": "Curriculum Vitae",
-    "annexes.cv.desc":  "Mon CV complet au format PDF \u2014 Derni\u00e8re mise \u00e0 jour : 2026",
+    "annexes.cv.desc":  "Mon CV complet au format PDF \u2014 Derni\u00e8re mise \u00e0 jour : janvier 2026",
     "footer.phone":  "T\u00e9l\u00e9phone",
     "footer.rights": "Tous droits r\u00e9serv\u00e9s",
   },
@@ -105,7 +105,7 @@ const translations = {
     "projects.resto.desc":        "Restaurant management system with menu customisation, stock and equipment management.",
     "annexes.title":    "Annexes",
     "annexes.cv.title": "Curriculum Vitae",
-    "annexes.cv.desc":  "My full CV in PDF format \u2014 Last updated: 2026",
+    "annexes.cv.desc":  "My full CV in PDF format \u2014 Last updated: january 2026",
     "footer.phone":  "Phone",
     "footer.rights": "All rights reserved",
   }
